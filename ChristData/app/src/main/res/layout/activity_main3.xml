@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ab"
+    android:layout_height="match_parent"
+    tools:context="com.example.immanualtrinity.christdata.Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/christ"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:text="Registration for Christite"/>
+
+        <EditText
+            android:hint="Enter Name"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/name"/>
+
+        <EditText
+            android:hint="Enter Register Number"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:drawableLeft="@drawable/ic_card_membership_black_24dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/reg"/>
+
+        <EditText
+            android:hint="Enter Mobile Number"
+            android:layout_width="300dp"
+            android:drawableLeft="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:id="@+id/mob"/>
+
+        <EditText
+            android:hint="Enter Course Name"
+            android:layout_width="300dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_school_black_24dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cname"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="7dp"
+            android:id="@+id/insert1"
+            android:layout_height="match_parent"
+            android:text="Procced to insert Data"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

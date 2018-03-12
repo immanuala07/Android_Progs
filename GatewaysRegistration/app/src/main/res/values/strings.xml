@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gateways Registration</string>
+    <string name="veg">Veg</string>
+    <string name="name">Name</string>
+
+
+    <string-array name="EventArrays">
+        <item>Choose a Event</item>
+        <item>Product Launch</item>
+        <item>Coding</item>
+        <item>Quiz</item>
+        <item>Event X</item>
+        <item>Web Designing</item>
+        <item>IT Manager</item>
+        <item>Gaming</item>
+    </string-array>
+</resources>

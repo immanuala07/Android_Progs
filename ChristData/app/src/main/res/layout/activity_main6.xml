@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ab"
+    tools:context="com.example.immanualtrinity.christdata.Main6Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/christ"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:text="Update data for Christ Database"/>
+
+        <EditText
+            android:hint="Enter Register Number"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:drawableLeft="@drawable/ic_card_membership_black_24dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/edreg"/>
+
+        <EditText
+            android:hint="Enter Mobile No to be changed"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:drawableLeft="@drawable/ic_card_membership_black_24dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/mobi"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/update"
+            android:layout_height="match_parent"
+            android:text="Update Data"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

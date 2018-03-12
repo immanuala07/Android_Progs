@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SMGCC</string>
+
+    <string-array name="fteam">
+        <item>Choose a First Team</item>
+        <item>Team A</item>
+        <item>Team B</item>
+        <item>Team C</item>
+        <item>Team D</item>
+    </string-array>
+
+    <string-array name="steam">
+        <item>Choose a Second Team</item>
+        <item>Team A</item>
+        <item>Team B</item>
+        <item>Team C</item>
+        <item>Team D</item>
+    </string-array>
+
+    <string-array name="overs">
+        <item>Choose Overs to be played</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="choice">
+        <item>Batting</item>
+        <item>Bowling</item>
+    </string-array>
+    <string name="title_activity_main4">Main4Activity</string>
+
+</resources>

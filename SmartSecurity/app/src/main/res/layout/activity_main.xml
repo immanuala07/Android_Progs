@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    android:orientation="vertical"
+    tools:context="com.example.immanualtrinity.smartsecurity.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_horizontal"
+        android:text="Surveillance Live Streaming"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="20dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="http:// /flash.html"
+            android:id="@+id/editText"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="320dp">
+
+        <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:drawableTop="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:layout_height="match_parent"
+            android:text="Left"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:drawableTop="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:layout_height="match_parent"
+            android:text="Right"/>
+
+           -->
+
+       <WebView
+            android:id="@+id/webview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </WebView>
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:text="Go to Ip Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

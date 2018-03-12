@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.immanualtrinity.christschool.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/christ"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:text="Marks Card for Christite"/>
+
+        <EditText
+            android:hint="Enter Name"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:inputType="text"
+
+            android:layout_marginTop="5dp"
+            android:id="@+id/name"/>
+
+        <EditText
+            android:hint="Enter Register Number"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:id="@+id/reg"/>
+
+        <EditText
+            android:hint="Enter mobile number"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:id="@+id/mob"/>
+
+        <EditText
+            android:hint="Enter Subject 1 Marks"
+            android:layout_width="300dp"
+
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:id="@+id/sub1"/>
+
+        <EditText
+            android:hint="Enter Subject 2 Marks"
+            android:layout_width="300dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+
+            android:layout_height="match_parent"
+            android:id="@+id/sub2"/>
+
+        <EditText
+            android:hint="Enter Subject 3 Marks"
+            android:layout_width="300dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+
+            android:layout_height="match_parent"
+            android:id="@+id/sub3"/>
+
+        <EditText
+            android:hint="Enter Subject 4 Marks"
+            android:layout_width="300dp"
+            android:layout_marginTop="5dp"
+
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:id="@+id/sub4"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="7dp"
+            android:id="@+id/insert1"
+            android:layout_height="match_parent"
+            android:text="Procced to store Data"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

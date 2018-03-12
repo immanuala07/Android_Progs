@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@drawable/abc"
+    tools:context="com.example.immanualtrinity.cineratings.Main2Activity">
+
+
+
+
+
+    <GridLayout
+        android:id="@+id/gl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:columnCount="1">
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="170dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="170dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Cine Ratings"
+            android:textSize="0.20in"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="37dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="170dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="0.10in"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="Select the movie to rate" />
+
+
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="170dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView" />
+
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/m11" />
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    tools:layout_editor_absoluteX="170dp"
+                    />
+
+              <RadioButton
+                  android:id="@+id/radioButton2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:drawableLeft="@drawable/m14"
+                  android:layout_weight="1"
+                  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    tools:layout_editor_absoluteX="170dp"
+                    />
+
+              <RadioButton
+                  android:id="@+id/radioButton3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:drawableLeft="@drawable/m12"
+                  android:layout_weight="1"
+                  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    tools:layout_editor_absoluteX="170dp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/m13"
+
+
+                    />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+
+                    android:stepSize="0.5"
+                    android:layout_weight="1" />
+            </RadioGroup>
+
+    </GridLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+    </ScrollView>
+

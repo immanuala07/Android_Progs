@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context="com.example.immanualtrinity.christmenudriven.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome Christite"
+            android:textColor="@android:color/white"
+            android:textStyle="bold|italic"
+            android:textSize="30dp"
+
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.058" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/christ" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vision"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excellence and Service"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mission"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Christ University is a nurturing ground for an individual's holistic development to make effective contribution to the society in a dynamic environment."
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+
+
+    </LinearLayout>
+
+    
+
+</android.support.constraint.ConstraintLayout>

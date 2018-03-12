@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ab"
+    tools:context="com.example.immanualtrinity.aahar_01.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/enjoy" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Veg"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="0.20in"
+            android:textColor="@android:color/black"
+            android:background="@android:color/holo_orange_light"/>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:text="Mixed Veg Roll" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Panneer Roll    " />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tomato Soup   " />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="250dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:text="Place Order" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/black"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/veg" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

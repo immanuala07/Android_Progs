@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Green Store</string>
+
+    <string-array name="productCat">
+        <item>Choose a Product</item>
+        <item>Books</item>
+        <item>Laptops</item>
+        <item>Electronic Gadgets</item>
+    </string-array>
+</resources>
